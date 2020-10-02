@@ -9,7 +9,7 @@ export default ({ title }) => (
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600,700"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
   </Helmet>
