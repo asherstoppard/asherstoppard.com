@@ -52,7 +52,7 @@ const Link = styled.a`
   color: white;
 `
 
-const SiteHeader = () => {
+const SiteHeader = ({ showNav = true }) => {
   const [scrollPosition, setScrollPosition] = useState(0)
   const handleScroll = () => {
     const position = window.pageYOffset
@@ -75,12 +75,12 @@ const SiteHeader = () => {
         <Logo href="/">
           <img src="/images/main-logo.png" alt="" />
         </Logo>
-        <Nav>
+        {showNav && <Nav>
           <Link href="">About</Link>
           <Link href="">Skills</Link>
           <Link href="">Experience</Link>
-          <FeaturedLink href="">Contact</FeaturedLink>
-        </Nav>
+          <FeaturedLink href="">Contact Me</FeaturedLink>
+        </Nav>}
       </HeaderContainer>
     </Header>
   )

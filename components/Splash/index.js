@@ -73,23 +73,23 @@ const SplashImage = styled.img`
   }
 `
 
-const Splash = () => (
+const Splash = ({ message, showCta = true }) => (
   <SplashBackground>
     <SplashContent>
       <h1>
         <strong>Asher Stoppard.</strong> Javascript Consultant.
       </h1>
       <p>
-        I’m a contract software engineer specialising isomorphic javascript
+        I’m a contract software engineer specialising in isomorphic javascript
         applications, centralisation and componentisation, architecture, CI/CD
         and testing.
       </p>
       <p>
-        <strong>Currently available from October 19th, 2020.</strong>
+        <strong>{ message }</strong>
       </p>
-      <p>
+      {showCta && <p>
         <Button href="">Contact Me</Button>
-      </p>
+      </p>}
     </SplashContent>
     <SplashImage src="images/splash-image.png" alt="" />
   </SplashBackground>
