@@ -1,0 +1,85 @@
+[
+  {
+    "from": "01/2020",
+    "companyName": "Just Eat",
+    "companyLogo": "/images/logo-just-eat.svg",
+    "position": "Contract Full-Stack Javascript Developer",
+    "skills": [
+      "Worked on all major Just Eat verticals including Home, Orders, Restaurants and Offers utilising VueJS, VueX, .NET, and Sass transpiled with Babel 7 and bundled with Webpack 4.",
+      "Contributed to the Just Eat open-source library utilising lerna and storybook published through private npm.",
+      "Helped upskill existing teams on modern coding practices (ES6/ES7/Components/Vue).",
+      "Worked closely with directors and stakeholders to align expectations and regularly feedback on progress across the teams.",
+      "Assisted QE with testing approaches for E2E, component and unit tests."
+    ]
+  },
+  {
+    "from": "08/2019",
+    "to": "01/2020",
+    "companyName": "Boots",
+    "companyLogo": "/images/logo-boots.png",
+    "position": "Contract Full-Stack Javascript Developer (Technical Lead)",
+    "skills": [
+      "Worked on a greenfield eCommerce project utilising Server-Side Rendered React, Redux, Node, Express, Styled components, Storybook transpiled with Babel 7 and bundled with Webpack 4.",
+      "Created and maintained NodeJS microservices built with Express and put forward planning for moving to a middleware strategy to aid reusability and centralisation.",
+      "Performed regular site audits and put forward strategies for defect and tech debt mitigation.",
+      "Worked as a tech lead across five teams providing insight and guidance on ways of working, agile methodology, testing strategy, CI/CD strategy. development best practices and microservice architecture.",
+      "Upskilled existing teams on modern coding practices (ES6/ES7/React Hooks).",
+      "Worked closely with directors and stakeholders to align expectations and regularly feedback on progress across the teams",
+      "Built internal NPM packages to assist with development and testing"
+    ]
+  },
+  {
+    "from": "07/2018",
+    "to": "08/2019",
+    "companyName": "Dunelm",
+    "companyLogo": "/images/logo-dunelm.png",
+    "position": "Contract Full-Stack Javascript Developer (Technical Lead)",
+    "skills": [
+      "Re-architected www.dunelm.com using Lerna, React (with server-side rendering), Redux, Node, Express and Emotion written in ES6/ES7, transpiled with Babel and compiled with Webpack.",
+      "Architected and built back-office systems utilising AWS, Cloudformation, Lambda, SNS, SQS and API Gateway using NodeJS and Koa middleware in Typescript.",
+      "Put forward guidance to aid the integration of GraphQL utilising AppSync and Apollo Client.",
+      "Implemented a behavioural unit test library with Jest and React testing library with mock adapters.",
+      "Integrated javascript automation tests with TestCafe and Browserstack",
+      "Integrated CI/CD pipelines in Jenkins and Docker in ECS"
+    ]
+  },
+  {
+    "from": "09/2016",
+    "to": "07/2018",
+    "companyName": "Experian",
+    "companyLogo": "/images/logo-experian.png",
+    "position": "Contract Full-Stack Javascript Developer",
+    "skills": [
+      "Worked on four greenfield projects across four teams including customer servicing and price comparison utilising React, NextJS, Node, Express and Styled Components written in ES6/ES7, transpiled with Babel and compiled with Webpack",
+      "Integrated with RESTful Micro-Services utilising Axios and Isomorphic Fetch",
+      "Helped implement the initial workings of a component library with React components in Storybook",
+      "Worked on unit test integration using Mocha and Enzyme with mocks built in Fetchmock and SinonJS",
+      "Integrated with CI/CD pipelines in Jenkins and Travis",
+      "Implemented automation tests and visual regression tests using Nightwatch and BackstopJS",
+      "Aided teams with Agile methodology and strategy"
+    ]
+  },
+  {
+    "from": "01/2015",
+    "to": "09/2016",
+    "companyName": "Capital One",
+    "companyLogo": "/images/logo-capital-one.png",
+    "position": "Senior Front-End software Engineer",
+    "skills": [
+      "Worked on a greenfield account servicing product utilising NodeJS, GraphQL, Angular, Gulp, NPM and Bower",
+      "Worked closely with services teams to help craft RESTful API's",
+      "Implemented unit tests with Jasmine and Karma and UI tests in Protractor",
+      "Created a strict set of CSS/Sass guidelines that were applied to both the UK and US business, aiding collaboration and consistency between teams",
+      "Upskilled other internal teams with brown bag sessions",
+      "Built an internal component system “OneUI” that was utilised across 80 teams in the UK and US businesses"
+    ]
+  },
+  {
+    "from": "09/2013",
+    "to": "01/2015",
+    "companyName": "Fifteen Design",
+    "companyLogo": "/images/logo-fifteen.jpg",
+    "position": "Lead Web Developer",
+    "skills": "Worked closely alongside the design and SEO department to develop and deploy future-proof, UX-Oriented Content Managed websites and eCommerce solutions utilising semantic HTML5, CSS3, SCSS, PHP, Javascript, jQuery and XML to create compliant, accessible and responsive online products"
+  }
+]

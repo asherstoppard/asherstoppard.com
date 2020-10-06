@@ -80,7 +80,7 @@ const Splash = ({ message, showCta = true }) => (
         <strong>Asher Stoppard.</strong> Javascript Consultant.
       </h1>
       <p>
-        I’m a contract software engineer specialising in isomorphic javascript
+        I’m a software engineering consultant specialising in isomorphic javascript
         applications, centralisation and componentisation, architecture, CI/CD
         and testing.
       </p>

@@ -2,7 +2,10 @@ import React from 'react'
 import {
   CallToAction,
   Container,
+  Experience,
   Layout,
+  List,
+  ListItem,
   Splash,
   SiteHeader,
   SiteFooter
@@ -34,81 +37,81 @@ const Homepage = () => (
         industry accessibility standards.
       </p>
       <h2>Key Events</h2>
-      <ul>
-        <li>
+      <List>
+        <ListItem>
           Experience integrating internal systems with ReactJS and MaterialUI for
           a FTSE250 company with over £150M in order throughput each month.
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Worked across five blue chip organisations on migrations or greenfield
           React projects.
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Previously integrated CI/CD pipelines with Terraform in AWS on
           server-less technology for fulfilment chains in a large retail project
           with resilience to cope with over 15,000 orders a minute.
-        </li>
-      </ul>
+        </ListItem>
+      </List>
 
       <h2>Skills</h2>
-      <ul>
-        <li>
+      <List>
+        <ListItem>
           Javascript (ES6/ES7) with Flow and Typescript transpiled with Babel
           NodeJS, Express and Koa
-        </li>
-        <li>Module bundling with Webpack and Parcel</li>
-        <li>Monorepo configuration with Lerna and Yarn Workspaces</li>
-        <li>
+        </ListItem>
+        <ListItem>Module bundling with Webpack and Parcel</ListItem>
+        <ListItem>Monorepo configuration with Lerna and Yarn Workspaces</ListItem>
+        <ListItem>
           React and frameworks including NextJS, AfterJS and Razzle served by
           Express/Koa
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Building reusable and responsive React components using
           styled-components and emotion (Previous experience with CSS3/Sass/SCSS
           and Less in OOCSS and BEM)
-        </li>
-        <li>Experience with Vue and Angular 1/2/4</li>
-        <li>Postgres, DynamoDB, MongoDB and Firebase</li>
-        <li>
+        </ListItem>
+        <ListItem>Experience with Vue and Angular 1/2/4</ListItem>
+        <ListItem>Postgres, DynamoDB, MongoDB and Firebase</ListItem>
+        <ListItem>
           IAC experience with Cloudformation and Terraform on AWS, DigitalOcean
           and Zeit
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           GraphQL configuration implementation using Apollo (Previous experience
           in RESTful micro services) Package management tools including NPM and
           Yarn with Vedaccio
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Unit testing utilising Jest, React testing library with experience in
           Mocha, Chai, Karma and Jasmine
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Semantically correct, SEO friendly, accessible page structuring with
           HTML5, Microformats and Aria accessibility attributes to AA and AAA
           WCAG2.0 standards
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           GIT Repository Experience in GitHub and GitLab with a working knowledge
           of GitFlow CI/CD pipeline configuration withDocker, Jenkins, TravisCI
           and CircleCI
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           Agile working methods with the Atlassian stack (Jira, Confluence and
           Slack)
-        </li>
-        <li>UX/UI and wire-framing and design experience</li>
-      </ul>
-      <h2>Experience</h2>
+        </ListItem>
+        <ListItem>UX/UI and wire-framing and design experience</ListItem>
+      </List>
+      <Experience />
 
 
-      <h2>Services</h2>
-      <ul>
-        <li>Web Applications</li>
-        <li>Mobile Applications</li>
-        <li>Components</li>
-        <li>Infrastructure</li>
-        <li>Testing &amp; Auditing</li>
-      </ul>
+      {/*<h2>Services</h2>*/}
+      {/*<List>*/}
+      {/*  <ListItem>Web Applications</li>*/}
+      {/*  <ListItem>Mobile Applications</li>*/}
+      {/*  <ListItem>Components</li>*/}
+      {/*  <ListItem>Infrastructure</li>*/}
+      {/*  <ListItem>Testing &amp; Auditing</li>*/}
+      {/*</ul>*/}
     </Container>
     <CallToAction />
     <SiteFooter />
