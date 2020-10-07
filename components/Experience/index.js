@@ -57,7 +57,7 @@ const CompanyLogo = styled.div`
     max-height: 5rem;
     
     @media (min-width: 730px) {
-      display: block;
+      display: inline;
     }
   }
 `
