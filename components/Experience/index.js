@@ -53,7 +53,12 @@ const CompanyLogo = styled.div`
   text-align: right;
   
   img {
+    display: none;
     max-height: 5rem;
+    
+    @media (min-width: 730px) {
+      display: block;
+    }
   }
 `
 
