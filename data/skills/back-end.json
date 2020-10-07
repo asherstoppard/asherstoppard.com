@@ -1,0 +1,19 @@
+{
+  "name": "Back-End Engineering",
+  "skills": [
+    "NodeJS",
+    "Express",
+    "Koa",
+    "Postgres",
+    "DynamoDB",
+    "MongoDB",
+    "Firebase",
+    "GraphQL",
+    "Apollo",
+    "REST",
+    "SNS",
+    "SQS",
+    "API Gateway",
+    "Auth0"
+  ]
+}

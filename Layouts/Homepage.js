@@ -8,7 +8,8 @@ import {
   ListItem,
   Splash,
   SiteHeader,
-  SiteFooter
+  SiteFooter,
+  Skills
 } from '../components'
 
 const Homepage = () => (
@@ -52,55 +53,7 @@ const Homepage = () => (
           with resilience to cope with over 15,000 orders a minute.
         </ListItem>
       </List>
-
-      <h2>Skills</h2>
-      <List>
-        <ListItem>
-          Javascript (ES6/ES7) with Flow and Typescript transpiled with Babel
-          NodeJS, Express and Koa
-        </ListItem>
-        <ListItem>Module bundling with Webpack and Parcel</ListItem>
-        <ListItem>Monorepo configuration with Lerna and Yarn Workspaces</ListItem>
-        <ListItem>
-          React and frameworks including NextJS, AfterJS and Razzle served by
-          Express/Koa
-        </ListItem>
-        <ListItem>
-          Building reusable and responsive React components using
-          styled-components and emotion (Previous experience with CSS3/Sass/SCSS
-          and Less in OOCSS and BEM)
-        </ListItem>
-        <ListItem>Experience with Vue and Angular 1/2/4</ListItem>
-        <ListItem>Postgres, DynamoDB, MongoDB and Firebase</ListItem>
-        <ListItem>
-          IAC experience with Cloudformation and Terraform on AWS, DigitalOcean
-          and Zeit
-        </ListItem>
-        <ListItem>
-          GraphQL configuration implementation using Apollo (Previous experience
-          in RESTful micro services) Package management tools including NPM and
-          Yarn with Vedaccio
-        </ListItem>
-        <ListItem>
-          Unit testing utilising Jest, React testing library with experience in
-          Mocha, Chai, Karma and Jasmine
-        </ListItem>
-        <ListItem>
-          Semantically correct, SEO friendly, accessible page structuring with
-          HTML5, Microformats and Aria accessibility attributes to AA and AAA
-          WCAG2.0 standards
-        </ListItem>
-        <ListItem>
-          GIT Repository Experience in GitHub and GitLab with a working knowledge
-          of GitFlow CI/CD pipeline configuration withDocker, Jenkins, TravisCI
-          and CircleCI
-        </ListItem>
-        <ListItem>
-          Agile working methods with the Atlassian stack (Jira, Confluence and
-          Slack)
-        </ListItem>
-        <ListItem>UX/UI and wire-framing and design experience</ListItem>
-      </List>
+      <Skills />
       <Experience />
 
 

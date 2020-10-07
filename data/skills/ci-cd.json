@@ -1,0 +1,17 @@
+{
+  "name": "Web-Ops",
+  "skills": [
+    "Infrastructure as Code",
+    "Cloudformation",
+    "Terraform",
+    "AWS",
+    "GCP",
+    "Azure",
+    "DigitalOcean",
+    "Vercel",
+    "Jenkins",
+    "Docker",
+    "Github Actions",
+    "Bitbucket Pipelines"
+  ]
+}

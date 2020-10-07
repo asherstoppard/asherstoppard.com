@@ -1,0 +1,19 @@
+{
+  "name": "Testing",
+  "skills": [
+    "Jest",
+    "React Testing Library",
+    "Enzyme",
+    "Vue Testing Utils",
+    "ExpectJS",
+    "Mocha",
+    "Chai",
+    "Karma",
+    "Jasmine",
+    "Istanbul",
+    "Nightwatch",
+    "WebdriverIO",
+    "Testcafe",
+    "Cypress"
+  ]
+}
