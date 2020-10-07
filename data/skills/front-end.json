@@ -1,0 +1,31 @@
+{
+  "name": "Front-End Engineering",
+  "skills": [
+    "Javascript (ES6/ES7)",
+    "Flow",
+    "Typescript",
+    "Babel",
+    "Parcel",
+    "Rollup",
+    "React",
+    "Redux",
+    "NextJS",
+    "Razzle",
+    "AfterJS",
+    "Vue",
+    "Vuex",
+    "Nuxt",
+    "Angular",
+    "styled-components",
+    "emotion",
+    "CSS3",
+    "Sass",
+    "SCSS",
+    "Less",
+    "OOCSS",
+    "BEM",
+    "Responsive Styling",
+    "Semantically Correct HTML5",
+    "Accessibility up to WCAG2.0 AAA Standards"
+  ]
+}
