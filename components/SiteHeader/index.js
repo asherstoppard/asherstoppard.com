@@ -39,11 +39,15 @@ const FeaturedLink = styled.a`
 `
 
 const Nav = styled.nav`
+  display: none;
   position: relative;
-  display: block !important;
   float: left;
   padding-left: 2rem;
   width: calc(100% - 4rem);
+  
+  @media (min-width: 680px) {
+    display: block;
+  }
 `
 
 const Link = styled.a`
