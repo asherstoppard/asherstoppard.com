@@ -37,10 +37,10 @@ const Homepage = () => (
         experience to create visually engaging and highly usable products to
         industry accessibility standards.
       </p>
-      <h2>Key Events</h2>
+      <h2>Achievements</h2>
       <List>
         <ListItem>
-          Experience integrating internal systems with ReactJS and MaterialUI for
+          Integrated internal systems with ReactJS and MaterialUI for
           a FTSE250 company with over £150M in order throughput each month.
         </ListItem>
         <ListItem>
@@ -48,9 +48,12 @@ const Homepage = () => (
           React projects.
         </ListItem>
         <ListItem>
-          Previously integrated CI/CD pipelines with Terraform in AWS on
+          Integrated CI/CD pipelines with Terraform in AWS on
           server-less technology for fulfilment chains in a large retail project
           with resilience to cope with over 15,000 orders a minute.
+        </ListItem>
+        <ListItem>
+          Worked as a technical lead and architect, upskilling six teams to deliver an eight figure software project for a household name.
         </ListItem>
       </List>
       <Skills />
