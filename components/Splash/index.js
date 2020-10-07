@@ -6,20 +6,35 @@ const SplashBackground = styled.div`
   position: relative;
   background: url('images/splash-background.jpg') center center no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 20vh;
   width: 100%;
   overflow: hidden;
 
   &:after {
     content: '';
     position: absolute;
-    top: 75vh;
+    bottom: -70vh;
     left: -50vw;
     width: 200vw;
     height: 100vh;
     transform: rotate(-10deg);
     background: white;
   }
+  
+  @media (min-width: 680px) {
+    height: 100vh;
+
+    &:after {
+      top: 75vh;
+      bottom: auto;
+    }
+  
+  }
+`
+
+const ButtonContainer = styled.p`
+  margin-top: 2rem;
 `
 
 const SplashContent = styled.div`
@@ -32,7 +47,7 @@ const SplashContent = styled.div`
   z-index: 3;
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   h1 {
@@ -41,6 +56,10 @@ const SplashContent = styled.div`
     strong {
       display: block;
     }
+  }
+  
+  ${Button} {
+    margin-top: 3rem;
   }
 
   @media (min-width: 730px) {
@@ -57,6 +76,10 @@ const SplashContent = styled.div`
         font-size: 4vw;
       }
     }
+    
+    p {
+      font-size: 1.4rem;
+    }
   }
 `
 
@@ -64,12 +87,13 @@ const SplashImage = styled.img`
   top: 15vh;
   position: relative;
   z-index: 10;
+  padding: 1rem;
 
   @media (min-width: 730px) {
     position: absolute;
     left: 45vw;
     max-height: 80vh;
-    width: auto;
+    padding: 0;
   }
 `
 
@@ -87,9 +111,9 @@ const Splash = ({ message, showCta = true }) => (
       <p>
         <strong>{ message }</strong>
       </p>
-      {showCta && <p>
+      {showCta && <ButtonContainer>
         <Button href="">Contact Me</Button>
-      </p>}
+      </ButtonContainer>}
     </SplashContent>
     <SplashImage src="images/splash-image.png" alt="" />
   </SplashBackground>
