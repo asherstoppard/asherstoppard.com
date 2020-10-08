@@ -1,3 +1,4 @@
+export { default as Achievements } from './Achievements'
 export { default as Layout } from './Layout'
 export { default as Theme } from './Theme'
 export { default as SiteFooter } from './SiteFooter'

@@ -3,11 +3,11 @@ import T from 'prop-types'
 import Head from './Head'
 import Theme from './Theme'
 
-const Layout = ({ children, title }) => (
+const Layout = ({ children, description, title }) => (
   <main>
     <Theme>
       <>
-        <Head title={title} />
+        <Head title={title} description={description} />
         {children}
       </>
     </Theme>

@@ -1,22 +1,39 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import {
+  Achievements,
   CallToAction,
   Container,
   Experience,
   Layout,
-  List,
-  ListItem,
-  Splash,
   SiteHeader,
   SiteFooter,
-  Skills
+  Skills,
+  Splash
 } from '../components'
 
 const Homepage = () => (
   <Layout
     title="Asher Stoppard - Javascript Consultant specialising in isomorphic applications"
+    description="I’m a software engineering consultant specialising in isomorphic javascript applications, centralisation and componentisation, architecture, CI/CD and testing."
     isInnerPage={false}
   >
+    <Helmet>
+      <script type="application/ld+json">
+        {`{
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "Asher Stoppard",
+          "url": "https://www.asherstoppard.com/",
+          "logo": "",
+          "sameAs": [
+          "https://www.asherstoppard.com/",
+          "https://github.com/asherstoppard/",
+          "https://www.linkedin.com/in/asherstoppard"
+          ]
+        }`}
+      </script>
+    </Helmet>
     <SiteHeader />
     <Splash message="Currently available from December 21st, 2020." />
     <Container>
@@ -37,22 +54,7 @@ const Homepage = () => (
         experience to create visually engaging and highly usable products to
         industry accessibility standards.
       </p>
-      <h2>Key Events</h2>
-      <List>
-        <ListItem>
-          Experience integrating internal systems with ReactJS and MaterialUI for
-          a FTSE250 company with over £150M in order throughput each month.
-        </ListItem>
-        <ListItem>
-          Worked across five blue chip organisations on migrations or greenfield
-          React projects.
-        </ListItem>
-        <ListItem>
-          Previously integrated CI/CD pipelines with Terraform in AWS on
-          server-less technology for fulfilment chains in a large retail project
-          with resilience to cope with over 15,000 orders a minute.
-        </ListItem>
-      </List>
+      <Achievements />
       <Skills />
       <Experience />
 

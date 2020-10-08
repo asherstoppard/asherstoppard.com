@@ -1,9 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-export default ({ title }) => (
+export default ({ description, title }) => (
   <Helmet>
     <title>{title}</title>
+    <meta name="description" content={description} />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
