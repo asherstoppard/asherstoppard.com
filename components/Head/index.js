@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-export default ({ description, title }) => (
+const Head = ({ description, title }) => (
   <Helmet>
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -15,3 +15,5 @@ export default ({ description, title }) => (
     />
   </Helmet>
 )
+
+export default Head

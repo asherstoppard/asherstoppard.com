@@ -25,7 +25,7 @@ const Homepage = () => (
           "@type": "Corporation",
           "name": "Asher Stoppard",
           "url": "https://www.asherstoppard.com/",
-          "logo": "",
+          "logo": "https://www.asherstoppard.com/images/external-logo.jpg",
           "sameAs": [
           "https://www.asherstoppard.com/",
           "https://github.com/asherstoppard/",
@@ -40,7 +40,7 @@ const Homepage = () => (
       <h2>About</h2>
       <p>
         <strong>
-          I’m a 29 year old contract Software Engineer specialising in Javascript
+          I’m a 30 year old contract Software Engineer specialising in Javascript
           and NodeJS with expertise in user-centered design, visual design,
           interaction design, information architecture, accessibility and web
           standards.
