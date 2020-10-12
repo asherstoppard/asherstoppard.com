@@ -105,7 +105,7 @@ const Splash = ({ message, showCta = true }) => (
       </h1>
       <p>
         I’m a software engineering consultant specialising in isomorphic javascript
-        applications, centralisation and componentisation, architecture, CI/CD
+        applications, centralisation, open-source, javascript components, architecture, CI/CD
         and testing.
       </p>
       <p>

@@ -38,18 +38,18 @@ const CallToAction = styled.div`
   }
 `
 
-const CallToActionButton = styled.div`
-  margin-top: 3rem;
-`
+// const CallToActionButton = styled.div`
+//   margin-top: 3rem;
+// `
 
 const CallToActionComponent = () => (
   <CallToActionContainer>
     <CallToAction>
       <h2>Applications seen by over <strong>275,000,000</strong> people a year.</h2>
       <p>An engineer you can trust to deliver your next application or feature.</p>
-      <CallToActionButton>
-        <Button href="/contact">Contact Me</Button>
-      </CallToActionButton>
+      {/*<CallToActionButton>*/}
+      {/*  <Button href="/contact">Contact Me</Button>*/}
+      {/*</CallToActionButton>*/}
     </CallToAction>
   </CallToActionContainer>
 )

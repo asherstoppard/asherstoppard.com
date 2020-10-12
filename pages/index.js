@@ -35,7 +35,7 @@ const Homepage = () => (
       </script>
     </Helmet>
     <SiteHeader />
-    <Splash message="Currently available from December 21st, 2020." />
+    <Splash message="Currently available from December 21st, 2020." showCta={false}/>
     <Container>
       <h2>About</h2>
       <p>
