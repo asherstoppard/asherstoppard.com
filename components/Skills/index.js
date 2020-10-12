@@ -24,9 +24,21 @@ const SkillItem = styled.li`
   border-right: 1px solid ${({ theme }) => theme.colors.light};
   border-bottom: 1px solid ${({ theme }) => theme.colors.light};
   margin: 0;
-  width: 25%;
+  width: 100%;
   padding: 2rem;
   text-align: center;
+  
+  @media (min-width: 480px) {
+    width: 50%;
+  }
+  
+  @media (min-width: 768px) {
+    width: 33.333%;
+  }
+  
+  @media (min-width: 1000px) {
+    width: 25%;
+  }
 `
 
 const SkillsComponent = () => (

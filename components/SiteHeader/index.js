@@ -30,42 +30,29 @@ const Logo = styled.a`
   float: left;
 `
 
-const FeaturedLink = styled.a`
-  display: block;
-  padding: 0.7rem 2rem;
-  color: white;
-
-  @media (min-width: 730px) {
-    float: right !important;
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    border-radius: 50px;
-    padding: 1rem 2rem;
-    color: white;
-  }
-`
-
 const Nav = styled.nav`
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background: url('images/splash-background.jpg') bottom center no-repeat;
+  background: url('images/splash-background.jpg') center center no-repeat;
   background-size: cover;
   
   ${({ isNavOpen }) => isNavOpen && `
     display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
   `};
 
   @media (min-width: 730px) {
     display: block;
+    width: auto;
     position: relative;
-    float: left;
+    float: right;
     padding-left: 2rem;
-    width: calc(100% - 4rem);
     background: none;
     top: auto;
+    border-top: none;
   }
 `
 
@@ -82,6 +69,10 @@ const Link = styled.a`
     color: white;
     border-bottom: none;
     width: auto;
+  }
+  
+  &:hover {
+    text-decoration: underline;
   }
 `
 
@@ -100,7 +91,7 @@ const NavTrigger = styled.button`
   }
 `
 
-const SiteHeader = ({ showNav = true }) => {
+const SiteHeader = () => {
   const [scrollPosition, setScrollPosition] = useState(0)
   const [isNavOpen, toggleNav] = useState(false)
   const handleScroll = () => {
@@ -124,15 +115,11 @@ const SiteHeader = ({ showNav = true }) => {
         <Logo href="/">
           <img src="/images/main-logo.png" alt="" />
         </Logo>
-        {showNav && <>
-          <Nav isNavOpen={isNavOpen}>
-            <Link href="">About</Link>
-            <Link href="">Skills</Link>
-            <Link href="">Experience</Link>
-            <FeaturedLink href="">Contact Me</FeaturedLink>
-          </Nav>
-          <NavTrigger onClick={() => toggleNav(!isNavOpen)}><i className={`fa fa-${isNavOpen ? 'times' : 'bars'}`} /></NavTrigger>
-        </>}
+        <Nav isNavOpen={isNavOpen}>
+          <Link href=""><i className="fa fa-tablet" /> +44 7398 767 388</Link>
+          <Link href=""><i className="fa fa-envelope-o" /> asher@asherstoppard.com</Link>
+        </Nav>
+        <NavTrigger onClick={() => toggleNav(!isNavOpen)}><i className={`fa fa-${isNavOpen ? 'times' : 'bars'}`} /></NavTrigger>
       </HeaderContainer>
     </Header>
   )
