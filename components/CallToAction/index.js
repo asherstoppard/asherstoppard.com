@@ -40,8 +40,8 @@ const CallToAction = styled.div`
 const CallToActionComponent = () => (
   <CallToActionContainer>
     <CallToAction>
-      <h2>Applications seen by over <strong>275,000,000</strong> people a year.</h2>
-      <p>An engineer you can trust to deliver your next application or feature.</p>
+      <h2>Javascript applications seen by over <strong>2.39 Billion</strong> people a year.</h2>
+      <p>An engineer you can trust to architect, manage and deliver your next software application.</p>
     </CallToAction>
   </CallToActionContainer>
 )
