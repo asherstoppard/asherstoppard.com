@@ -6,6 +6,9 @@ const Achievements = () => (
     <h2>Achievements</h2>
     <List>
       <ListItem>
+        Worked on an international platform delivering value across 24 countries for a multi-billion pound retail company.
+      </ListItem>
+      <ListItem>
         Integrated internal systems with ReactJS and MaterialUI for
         a FTSE250 company with over £150M in order throughput each month.
       </ListItem>
