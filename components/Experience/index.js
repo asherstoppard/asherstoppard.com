@@ -81,7 +81,7 @@ const ExperienceComponent = () => <>
         <h3>{companyName}</h3>
         <Position><strong>{position}</strong></Position>
         {typeof skills === 'string' ? skills : <List>
-          {skills.map(skill => <ListItem>{skill}</ListItem>)}
+          {skills.map(skill => <ListItem key={skill}>{skill}</ListItem>)}
         </List>}
       </Experience>
     ))}
