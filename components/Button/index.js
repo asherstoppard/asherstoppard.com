@@ -16,6 +16,11 @@ const ButtonContainer = styled.button`
   &:after {
     display: none;
   }
+  
+  i {
+    margin-right: 0.5rem;
+    color: #ffa631;
+  }
 `
 
 const LinkContainer = ButtonContainer.withComponent('a')

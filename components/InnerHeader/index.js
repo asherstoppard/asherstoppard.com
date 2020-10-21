@@ -6,8 +6,7 @@ import { Container } from '../../components'
 
 const InnerHeaderContainer = styled.div`
   position: relative;
-  background: url('/static/images/video-placeholder.jpg') center center;
-  background-size: cover;
+  background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
   color: white;
 
   &:before {

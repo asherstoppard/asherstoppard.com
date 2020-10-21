@@ -15,8 +15,7 @@ const Header = styled.header`
   `}
   
   ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && `
-    background: url('images/splash-background.jpg') top center no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
   `}
 `
 
@@ -36,8 +35,7 @@ const Nav = styled.nav`
   top: 100%;
   left: 0;
   width: 100%;
-  background: url('images/splash-background.jpg') center center no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
   
   ${({ isNavOpen }) => isNavOpen && `
     display: block;
