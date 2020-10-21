@@ -13,12 +13,11 @@ const SplashBackground = styled.div`
   background-image: linear-gradient(
     30deg,
     #231557 0%,
-    #44107A 5%,
-    #FF1361 28%,
-    #ff6431 45%,
-    #ff6431 53%,
+    #44107A 10%,
+    #FF1361 30%,
+    #ff6431 50%,
     #FF1361 70%,
-    #44107A 95%,
+    #44107A 90%,
     #231557 100%
   );
   background-position: left center;
