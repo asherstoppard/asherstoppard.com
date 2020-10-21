@@ -47,7 +47,7 @@ const SkillsComponent = () => (
     {skills.map(({ name, skills }) => <>
         <h3>{name}</h3>
         <SkillItems>
-          {skills.map(skill => <SkillItem>{skill}</SkillItem>)}
+          {skills.map(skill => <SkillItem key={skill}>{skill}</SkillItem>)}
         </SkillItems>
       </>
     )}
