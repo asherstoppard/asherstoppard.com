@@ -3,13 +3,31 @@ import styled from 'styled-components'
 import Button from '../Button'
 
 const SplashBackground = styled.div`
+  @keyframes SplashBackground {
+      0%{background-position:left center}
+      50%{background-position: right center}
+      100%{background-position: left center}
+  }
+
   position: relative;
-  background: url('images/splash-background.jpg') center center no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(
+    30deg,
+    #231557 0%,
+    #44107A 5%,
+    #FF1361 28%,
+    #ff6431 45%,
+    #ff6431 53%,
+    #FF1361 70%,
+    #44107A 95%,
+    #231557 100%
+  );
+  background-position: left center;
+  background-size: 400% 100%;
   height: auto;
   padding-bottom: 20vh;
   width: 100%;
   overflow: hidden;
+  animation: SplashBackground 45s linear infinite;
 
   &:after {
     content: '';
@@ -34,7 +52,7 @@ const SplashBackground = styled.div`
 `
 
 const ButtonContainer = styled.p`
-  margin-top: 2rem;
+  margin-top: 3rem;
 `
 
 const SplashContent = styled.div`
@@ -97,7 +115,7 @@ const SplashImage = styled.img`
   }
 `
 
-const Splash = ({ message, showCta = true }) => (
+const Splash = ({ message }) => (
   <SplashBackground>
     <SplashContent>
       <h1>
@@ -111,9 +129,9 @@ const Splash = ({ message, showCta = true }) => (
       <p>
         <strong>{ message }</strong>
       </p>
-      {showCta && <ButtonContainer>
-        <Button href="">Contact Me</Button>
-      </ButtonContainer>}
+      <ButtonContainer>
+        <Button href="/documents/Asher%20Stoppard%20-%20CV%20-%202020.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o" /> Download My CV</Button>
+      </ButtonContainer>
     </SplashContent>
     <SplashImage src="images/splash-image.png" alt="" />
   </SplashBackground>

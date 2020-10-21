@@ -6,8 +6,7 @@ import Container from '../Container'
 const SiteFooterContainer = styled.footer`
   padding: 5rem 0;
 
-  background: url('images/splash-background.jpg') bottom right no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(30deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
   text-align: center;
   color: white;
   font-weight: 300;
