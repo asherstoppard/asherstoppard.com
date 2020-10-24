@@ -15,7 +15,7 @@ const Header = styled.header`
   `}
   
   ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && `
-    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
+    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
   `}
 `
 
