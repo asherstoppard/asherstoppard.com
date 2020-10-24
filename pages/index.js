@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import {
   Achievements,
   CallToAction,
@@ -16,24 +15,8 @@ const Homepage = () => (
   <Layout
     title="Asher Stoppard - Javascript Consultant specialising in isomorphic applications"
     description="I’m a software engineering consultant specialising in isomorphic javascript applications, centralisation and componentisation, architecture, CI/CD and testing."
-    isInnerPage={false}
+    isHomepage
   >
-    <Helmet>
-      <script type="application/ld+json">
-        {`{
-          "@context": "https://schema.org",
-          "@type": "Corporation",
-          "name": "Asher Stoppard",
-          "url": "https://www.asherstoppard.com/",
-          "logo": "https://www.asherstoppard.com/images/external-logo.jpg",
-          "sameAs": [
-          "https://www.asherstoppard.com/",
-          "https://github.com/asherstoppard/",
-          "https://www.linkedin.com/in/asherstoppard"
-          ]
-        }`}
-      </script>
-    </Helmet>
     <SiteHeader />
     <Splash message="Currently available from December 21st, 2020." showCta={false}/>
     <Container>
