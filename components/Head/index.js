@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 
 const Head = ({ description, title }) => (
   <Helmet>
+    <html lang="en" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link
