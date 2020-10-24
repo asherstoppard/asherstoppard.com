@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data'
-import { List, ListItem } from '../List';
 
 const Skills = styled.div`
   h3 {
@@ -44,12 +43,12 @@ const SkillItem = styled.li`
 const SkillsComponent = () => (
   <Skills>
     <h2>Skills</h2>
-    {skills.map(({ name, skills }) => <>
+    {skills.map(({ name, skills: skillItems }) => <Fragment key={name}>
         <h3>{name}</h3>
         <SkillItems>
-          {skills.map(skill => <SkillItem key={skill}>{skill}</SkillItem>)}
+          {skillItems.map(skill => <SkillItem key={`${name} ${skill}`}>{skill}</SkillItem>)}
         </SkillItems>
-      </>
+      </Fragment>
     )}
   </Skills>
 )
