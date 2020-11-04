@@ -13,6 +13,7 @@ const Experiences = styled.div`
 const Experience = styled.div`
   position: relative;
   margin-bottom: 4rem;
+  top: -0.2rem;
   
   h3 {
     font-size: 2.25rem;
@@ -22,7 +23,7 @@ const Experience = styled.div`
   
   &:before {
     content: '';
-    border: 4px solid #e2404d;
+    border: 4px solid #FF1361;
     position: absolute;
     left: -2.125rem;
     top: 0.2rem;
@@ -37,7 +38,7 @@ const Experience = styled.div`
 const Date = styled.p`
   border-radius: 1rem;
   margin: 0;
-  color: #e2404d;
+  color: #FF1361;
   font-weight: 700;
 `
 
