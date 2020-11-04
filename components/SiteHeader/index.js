@@ -98,12 +98,13 @@ const SiteHeader = () => {
   }
 
   useEffect(() => {
+    handleScroll()
     window.addEventListener('scroll', handleScroll, { passive: true })
 
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [])
+  })
 
   const isCondensed = scrollPosition > 0
 
