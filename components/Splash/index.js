@@ -68,6 +68,7 @@ const SplashContent = styled.div`
   }
 
   h1 {
+    color: ${({ theme }) => theme.colors.light};
     font-weight: 300;
 
     strong {
