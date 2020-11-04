@@ -13,6 +13,24 @@
     ]
   },
   {
+    "isMainConsultancy": false,
+    "from": "10/2020",
+    "companyName": "ModelDrive",
+    "position": "Full-Stack Javascript Consultant"
+  },
+  {
+    "isMainConsultancy": false,
+    "from": "09/2020",
+    "companyName": "Lifts To",
+    "position": "Full-Stack Javascript Consultant"
+  },
+  {
+    "isMainConsultancy": false,
+    "from": "01/2020",
+    "companyName": "WPHP",
+    "position": "Full-Stack Javascript Consultant"
+  },
+  {
     "from": "08/2019",
     "to": "01/2020",
     "companyName": "Boots",

@@ -75,13 +75,13 @@ const ExperienceComponent = () => <>
      }) => (
       <Experience key={companyName}>
         <Date>{moment(from, 'MM/YYYY').format('MMMM YYYY')} - {to ? moment(to, 'MM/YYYY').format('MMMM YYYY') : 'Present day'}</Date>
-        <CompanyLogo>
+        {companyLogo && <CompanyLogo>
           <img src={companyLogo} alt={`${companyName} Logo`}/>
-        </CompanyLogo>
+        </CompanyLogo>}
         <h3>{companyName}</h3>
         <Position><strong>{position}</strong></Position>
         {typeof skills === 'string' ? skills : <List>
-          {skills.map(skill => <ListItem key={skill}>{skill}</ListItem>)}
+          {skills && skills.map(skill => <ListItem key={skill}>{skill}</ListItem>)}
         </List>}
       </Experience>
     ))}
