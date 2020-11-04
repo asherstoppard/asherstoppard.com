@@ -74,10 +74,6 @@ const SplashContent = styled.div`
       display: block;
     }
   }
-  
-  ${Button} {
-    margin-top: 3rem;
-  }
 
   @media (min-width: 730px) {
     top: 15vh;
