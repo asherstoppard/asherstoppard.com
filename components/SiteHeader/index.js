@@ -35,7 +35,7 @@ const Nav = styled.nav`
   top: 100%;
   left: 0;
   width: 100%;
-  background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ffa631 100%);
+  background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
   
   ${({ isNavOpen }) => isNavOpen && `
     display: block;
