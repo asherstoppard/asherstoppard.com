@@ -13,6 +13,7 @@ const HeadComponent = ({ title, description, isHomepage }) => (
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
         rel="stylesheet"
       />
+      <link rel="icon" href="images/favicon.ico" />
       {isHomepage && <script type="application/ld+json">
         {`{
           "@context": "https://schema.org",
