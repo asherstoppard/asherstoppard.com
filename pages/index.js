@@ -23,7 +23,7 @@ const Homepage = () => (
       <h2>About</h2>
       <p>
         <strong>
-          I’m a 30 year old contract Software Engineer specialising in Javascript
+          I’m a contract Software Engineer specialising in Javascript
           and NodeJS with expertise in user-centered design, visual design,
           interaction design, information architecture, accessibility and web
           standards.

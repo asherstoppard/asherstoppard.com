@@ -112,7 +112,7 @@ const SiteHeader = () => {
     <Header isCondensed={isCondensed} isNavOpen={isNavOpen}>
       <HeaderContainer isCondensed={isCondensed}>
         <Logo href="/">
-          <img src="/images/main-logo.png" alt="" />
+          <img src="/images/main-logo.svg" alt="Asher Stoppard Limited - Logo" />
         </Logo>
         <Nav isNavOpen={isNavOpen}>
           <Link href="tel:+447398767388"><i className="fa fa-tablet" /> +44 7398 767 388</Link>
