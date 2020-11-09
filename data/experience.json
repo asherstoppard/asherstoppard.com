@@ -10,25 +10,44 @@
       "Helped upskill existing teams on modern coding practices (ES6/ES7/Components/Vue).",
       "Worked closely with directors and stakeholders to align expectations and regularly feedback on progress across the teams.",
       "Assisted QE with testing approaches for E2E, component and unit tests."
-    ]
+    ],
+    "tags": [
+      "Enterprise",
+      "FTSE100",
+      "Global"
+    ],
+    "location": "Worldwide"
   },
   {
     "isMainConsultancy": false,
     "from": "10/2020",
     "companyName": "ModelDrive",
-    "position": "Full-Stack Javascript Consultant"
+    "position": "Full-Stack Javascript Consultant",
+    "companyLogo": "/images/logo-modeldrive.png",
+    "tags": [
+      "Startup",
+      "FinTech"
+    ],
+    "location": "London"
   },
   {
     "isMainConsultancy": false,
     "from": "09/2020",
     "companyName": "Lifts To",
-    "position": "Full-Stack Javascript Consultant"
+    "position": "Full-Stack Javascript Consultant",
+    "companyLogo": "/images/logo-liftsto.png"
   },
   {
     "isMainConsultancy": false,
     "from": "01/2020",
     "companyName": "WPHP",
-    "position": "Full-Stack Javascript Consultant"
+    "position": "Full-Stack Javascript Consultant",
+    "companyLogo": "/images/logo-wphp.png",
+    "tags": [
+      "Startup",
+      "SaaS"
+    ],
+    "location": "London"
   },
   {
     "from": "08/2019",
@@ -44,7 +63,11 @@
       "Upskilled existing teams on modern coding practices (ES6/ES7/React Hooks).",
       "Worked closely with directors and stakeholders to align expectations and regularly feedback on progress across the teams",
       "Built internal NPM packages to assist with development and testing"
-    ]
+    ],
+    "tags": [
+
+    ],
+    "location": "Nottingham"
   },
   {
     "from": "07/2018",
@@ -59,7 +82,12 @@
       "Implemented a behavioural unit test library with Jest and React testing library with mock adapters.",
       "Integrated javascript automation tests with TestCafe and Browserstack",
       "Integrated CI/CD pipelines in Jenkins and Docker in ECS"
-    ]
+    ],
+    "tags": [
+      "FTSE250",
+      "eCommerce"
+    ],
+    "location": "Leicester"
   },
   {
     "from": "09/2016",
@@ -75,7 +103,12 @@
       "Integrated with CI/CD pipelines in Jenkins and Travis",
       "Implemented automation tests and visual regression tests using Nightwatch and BackstopJS",
       "Aided teams with Agile methodology and strategy"
-    ]
+    ],
+    "tags": [
+      "FTSE100",
+      "FinTech"
+    ],
+    "location": "Nottingham, London and Costa Mesa"
   },
   {
     "from": "01/2015",
@@ -90,7 +123,12 @@
       "Created a strict set of CSS/Sass guidelines that were applied to both the UK and US business, aiding collaboration and consistency between teams",
       "Upskilled other internal teams with brown bag sessions",
       "Built an internal component system “OneUI” that was utilised across 80 teams in the UK and US businesses"
-    ]
+    ],
+    "tags": [
+      "FTSE250",
+      "FinTech"
+    ],
+    "location": "Nottingham, London and North Virginia"
   },
   {
     "from": "09/2013",
@@ -98,6 +136,7 @@
     "companyName": "Fifteen Design",
     "companyLogo": "/images/logo-fifteen.jpg",
     "position": "Lead Web Developer",
-    "skills": "Worked closely alongside the design and SEO department to develop and deploy future-proof, UX-Oriented Content Managed websites and eCommerce solutions utilising semantic HTML5, CSS3, SCSS, PHP, Javascript, jQuery and XML to create compliant, accessible and responsive online products"
+    "skills": "Worked closely alongside the design and SEO department to develop and deploy future-proof, UX-Oriented Content Managed websites and eCommerce solutions utilising semantic HTML5, CSS3, SCSS, PHP, Javascript, jQuery and XML to create compliant, accessible and responsive online products",
+    "location": "Nottingham and London"
   }
 ]
