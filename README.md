@@ -1,8 +1,8 @@
-<center>
+<p align="center">
 	<img src="public/images/main-logo-dark.svg" width="50" alt="Asher Stoppard Logo"/>
-	<h1>Asher Stoppard - Online Resume</h1>
-	[asherstoppard.com](asherstoppard.com)
-</center>
+</p>
+<h1 align="center">Asher Stoppard - Online Resume</h1>
+<p align="center"><a href="https://www.asherstoppard.com/">www.asherstoppard.com</a></p>
 
 ![Screenshot](screenshot.jpg)
 
