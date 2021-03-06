@@ -63,6 +63,23 @@ const CompanyLogo = styled.div`
   }
 `
 
+const Tag = styled.li`
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.5rem;
+  color: #423e78;
+  font-weight: 700;
+  background: #eceff1;
+  margin-right: 0.2rem;
+  border-radius: 1rem
+`
+
+const Tags = styled.ul`
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+`
+
 const ExperienceComponent = () => <>
   <h2>Experience</h2>
   <Experiences>
@@ -72,7 +89,8 @@ const ExperienceComponent = () => <>
        companyName,
        companyLogo,
        position,
-       skills
+       skills,
+      tags
      }) => (
       <Experience key={companyName}>
         <Date>{moment(from, 'MM/YYYY').format('MMMM YYYY')} - {to ? moment(to, 'MM/YYYY').format('MMMM YYYY') : 'Present day'}</Date>
@@ -81,6 +99,7 @@ const ExperienceComponent = () => <>
         </CompanyLogo>}
         <h3>{companyName}</h3>
         <Position><strong>{position}</strong></Position>
+        {tags && <Tags>{tags.map(tag => <Tag>{tag}</Tag>)}</Tags>}
         {typeof skills === 'string' ? skills : <List>
           {skills && skills.map(skill => <ListItem key={skill}>{skill}</ListItem>)}
         </List>}
