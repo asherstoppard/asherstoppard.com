@@ -99,7 +99,7 @@ const ExperienceComponent = () => <>
         </CompanyLogo>}
         <h3>{companyName}</h3>
         <Position><strong>{position}</strong></Position>
-        {tags && <Tags>{tags.map(tag => <Tag>{tag}</Tag>)}</Tags>}
+        {tags && <Tags>{tags.map(tag => <Tag key={`${companyName}${tag}`}>{tag}</Tag>)}</Tags>}
         {typeof skills === 'string' ? skills : <List>
           {skills && skills.map(skill => <ListItem key={skill}>{skill}</ListItem>)}
         </List>}
