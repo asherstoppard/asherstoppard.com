@@ -1,6 +1,27 @@
 [
   {
+    "isMainConsultancy": true,
+    "from": "11/2020",
+    "companyName": "ModelDrive",
+    "position": "Contract Lead Full-Stack Javascript Engineer",
+    "companyLogo": "/images/logo-modeldrive.png",
+    "tags": [
+      "Startup",
+      "FinTech",
+      "SaaS"
+    ],
+    "location": "London (Remote)",
+    "skills": [
+      "Worked on spreadsheet collaboration software utilising React, GraphQL, Apollo, WebSockets, Styled Components and Storybook.",
+      "Ensured future-proofing and improved cycle speed by migrating to a centralised, component-based model and simplifying existing structures.",
+      "Migrated from Redux/Kea to Apollo GraphQL on both the server and client.",
+      "Consulted with existing developers on best practice and structures.",
+      "Put forward architectural guidance to ensure performance and scalability."
+    ]
+  },
+  {
     "from": "01/2020",
+    "to": "11/2020",
     "companyName": "Just Eat",
     "companyLogo": "/images/logo-just-eat.svg",
     "position": "Contract Full-Stack Javascript Developer",
@@ -20,22 +41,17 @@
   },
   {
     "isMainConsultancy": false,
-    "from": "10/2020",
-    "companyName": "ModelDrive",
-    "position": "Full-Stack Javascript Consultant",
-    "companyLogo": "/images/logo-modeldrive.png",
-    "tags": [
-      "Startup",
-      "FinTech"
-    ],
-    "location": "London"
-  },
-  {
-    "isMainConsultancy": false,
     "from": "09/2020",
+    "to": "01/2021",
     "companyName": "Lifts To",
     "position": "Full-Stack Javascript Consultant",
-    "companyLogo": "/images/logo-liftsto.png"
+    "companyLogo": "/images/logo-liftsto.jpg",
+    "skills": [
+      "Created a centralised component monorepo centered around React.",
+      "Setup and configured existing and new components in Private NPM.",
+      "Upskilled team members with new processes surrounding versioning and deployment.",
+      "Created a bespoke Date Time Picker component deployed on Private NPM for use across internal and external business systems."
+    ]
   },
   {
     "isMainConsultancy": false,
@@ -47,7 +63,14 @@
       "Startup",
       "SaaS"
     ],
-    "location": "London"
+    "location": "Worldwide",
+    "skills": [
+      "Created a SaaS reporting suite using SSR React in NextJS integrated with a Koa back-end through GraphQL connected to a Postgres database.",
+      "Created and implemented Apollo GraphQL from client through to back-end.",
+      "Integrated CI/CD pipelines using terraform on AWS architecture.",
+      "Interfaced with Stripe payment services and developed a bespoke internal platform for billing cycles, notifications, invoice handling and permission checks.",
+      "Performed UX research studies and put forward guidance in regards to design and UI interaction."
+    ]
   },
   {
     "from": "08/2019",
