@@ -18,7 +18,7 @@ const Homepage = () => (
     isHomepage
   >
     <SiteHeader />
-    <Splash message="Currently available from December 21st, 2020." showCta={false}/>
+    <Splash message="Currently available from April 6th, 2021." showCta={false}/>
     <Container>
       <h2>About</h2>
       <p>
@@ -40,16 +40,6 @@ const Homepage = () => (
       <Achievements />
       <Skills />
       <Experience />
-
-
-      {/*<h2>Services</h2>*/}
-      {/*<List>*/}
-      {/*  <ListItem>Web Applications</li>*/}
-      {/*  <ListItem>Mobile Applications</li>*/}
-      {/*  <ListItem>Components</li>*/}
-      {/*  <ListItem>Infrastructure</li>*/}
-      {/*  <ListItem>Testing &amp; Auditing</li>*/}
-      {/*</ul>*/}
     </Container>
     <CallToAction />
     <SiteFooter />
