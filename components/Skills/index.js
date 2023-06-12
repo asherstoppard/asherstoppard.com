@@ -5,7 +5,7 @@ import { skills } from '../../data'
 const Skills = styled.div`
   h3 {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
   }
 `
 

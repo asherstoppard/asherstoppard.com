@@ -17,7 +17,7 @@ const Experience = styled.div`
   
   h3 {
     font-size: 2.25rem;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
   }
   
@@ -39,7 +39,7 @@ const Date = styled.p`
   border-radius: 1rem;
   margin: 0;
   color: #FF1361;
-  font-weight: 700;
+  font-weight: 600;
 `
 
 const Position = styled.p`

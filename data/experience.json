@@ -1,14 +1,56 @@
 [
   {
     "isMainConsultancy": true,
+    "from": "10/2021",
+    "companyName": "Redkite Intelligence",
+    "position": "Javascript Engineering Consultant",
+    "companyLogo": "/images/logo-redkite.svg",
+    "tags": [
+      "Startup"
+    ],
+    "location": "London (Remote)",
+    "skills": [
+      "Lead the Front-End function on an internal data pipeline observation startup built with Typescript, React, GraphQL, Apollo, WebSockets, Styled Components and Storybook.",
+      "Designed and architected a GraphQL solution over websockets with Apollo.",
+      "Migrated separate repositories into a single, concise and easily maintained monorepo using Turborepo.",
+      "Improved build processes and times, increasing performance and productivity using esbuild.",
+      "Integrated CI/CD pipelines and build processes in Azure Devops."
+    ]
+  },
+  {
+    "isMainConsultancy": true,
     "from": "03/2021",
+    "to": "10/2021",
     "companyName": "Debut Careers",
     "position": "Javascript Engineering Consultant",
     "companyLogo": "/images/logo-debut.png",
     "tags": [
       "Startup"
     ],
-    "location": "London (Remote)"
+    "location": "London (Remote)",
+    "skills": [
+      "Managed and worked on a new pivotal feature using machine learning to speed up student applications for roles utilising NodeJS, typescript, React (SSR’d with NextJS)",
+      "Designed and built a resilient serverless stack in GCP to accommodate the new API’s and front-end requirements.",
+      "Maintained and manipulated data across multiple SQL and noSQL stores to help maintain and drive new functionality."
+    ]
+  },
+  {
+    "isMainConsultancy": false,
+    "from": "04/2021",
+    "companyName": "Vsourcing",
+    "position": "Javascript Engineering Consultant",
+    "companyLogo": "/images/logo-vsourcing.svg",
+    "tags": [
+      "Startup"
+    ],
+    "location": "Nottingham (Remote)",
+    "skills": [
+      "Designed, developed and deployed the brochure website built on headless WordPress connected to a React, GraphQL and Styled Components driven UI.",
+      "Managed marketing efforts on social media channels including Facebook, Instagram and LinkedIn.",
+      "Managed PPC campaigns for SERPs and technical SEO audits and changes.",
+      "Integrated payment systems with Stripe through the Stripe SDK and front-end libraries.",
+      "Designed and built a bespoke online account area and live chat system."
+    ]
   },
   {
     "isMainConsultancy": true,

@@ -84,7 +84,6 @@ const SplashContent = styled.div`
     h1 {
       font-size: 3.5vw;
       line-height: 1.1;
-      letter-spacing: -2px;
 
       strong {
         font-size: 4vw;
@@ -92,7 +91,7 @@ const SplashContent = styled.div`
     }
     
     p {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
     }
   }
 `
@@ -126,7 +125,7 @@ const Splash = ({ message }) => (
         <strong>{ message }</strong>
       </p>
       <ButtonContainer>
-        <Button href="/documents/Asher%20Stoppard%20-%20CV%20-%202020.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-arrow-down" /> Download My CV</Button>
+        <Button href="/documents/Asher%20Stoppard%20-%20CV%20-%202021.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-arrow-down" /> Download My CV</Button>
       </ButtonContainer>
     </SplashContent>
     <SplashImage src="images/splash-image.png" alt="" />

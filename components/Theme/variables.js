@@ -7,6 +7,6 @@ export default {
     link: '#2196f3',
   },
   base: {
-    fontFamily: '"Open Sans", "Helvetica", sans-serif',
+    fontFamily: '"Outfit", "Helvetica", sans-serif',
   },
 }
