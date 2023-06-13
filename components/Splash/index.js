@@ -125,7 +125,7 @@ const Splash = ({ message }) => (
         <strong>{ message }</strong>
       </p>
       <ButtonContainer>
-        <Button href="/documents/Asher%20Stoppard%20-%20CV%20-%202021.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-arrow-down" /> Download My CV</Button>
+        <Button href="/documents/Asher%20Stoppard%20-%20CV%20-%202023.pdf" target="_blank" rel="noopener noreferrer"><i className="fa fa-arrow-down" /> Download My CV</Button>
       </ButtonContainer>
     </SplashContent>
     <SplashImage src="images/splash-image.png" alt="" />
