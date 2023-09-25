@@ -1,7 +1,22 @@
 [
   {
     "isMainConsultancy": true,
+    "from": "09/2023",
+    "companyName": "Marco Polo Network",
+    "position": "Javascript Engineering Consultant",
+    "companyLogo": "/images/logo-marco-polo-network.svg",
+    "tags": [
+      "Startup",
+      "FinTech",
+      "Blockchain"
+    ],
+    "location": "London (Remote)",
+    "skills": []
+  },
+  {
+    "isMainConsultancy": true,
     "from": "10/2021",
+    "to": "09/2023",
     "companyName": "Redkite Intelligence",
     "position": "Javascript Engineering Consultant",
     "companyLogo": "/images/logo-redkite.svg",

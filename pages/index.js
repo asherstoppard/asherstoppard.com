@@ -27,7 +27,7 @@ const Homepage = () => {
           isHomepage
       >
         <SiteHeader />
-        <Splash message="Available from October 2023." showCta={false}/>
+        <Splash showCta={false}/>
         <Container>
           <h2>About</h2>
           <p>

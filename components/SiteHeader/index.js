@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const Header = styled.header`
   position: fixed;
@@ -10,12 +10,13 @@ const Header = styled.header`
   padding: 2rem 0;
   transition: padding 0.5s ease-in-out;
   
-  ${({ isCondensed }) => isCondensed && `
+  ${({ isCondensed }) => isCondensed && css`
     padding: 1rem 0;
   `}
   
-  ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && `
-    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
+  ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && css`
+    background: url('/images/gradient-background.jpg') center -100px no-repeat;
+    background-size: cover;
   `}
 `
 
@@ -25,7 +26,7 @@ const HeaderContainer = styled.div`
 
 const Logo = styled.a`
   display: inline-block;
-  width: 4rem;
+  width: 2.5rem;
   float: left;
 `
 
@@ -37,7 +38,7 @@ const Nav = styled.nav`
   width: 100%;
   background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
   
-  ${({ isNavOpen }) => isNavOpen && `
+  ${({ isNavOpen }) => isNavOpen && css`
     display: block;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
   `};
@@ -112,7 +113,7 @@ const SiteHeader = () => {
     <Header isCondensed={isCondensed} isNavOpen={isNavOpen}>
       <HeaderContainer isCondensed={isCondensed}>
         <Logo href="/">
-          <img src="/images/main-logo.svg" alt="Asher Stoppard Limited - Logo" />
+          <img src="/images/logo-v2.svg" alt="Asher Stoppard Limited - Logo" />
         </Logo>
         <Nav isNavOpen={isNavOpen}>
           <Link href="tel:+447398767388"><i className="fa fa-tablet" /> +44 7398 767 388</Link>
