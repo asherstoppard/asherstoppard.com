@@ -15,8 +15,7 @@ const Header = styled.header`
   `}
   
   ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && css`
-    background: url('/images/gradient-background.jpg') center -100px no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
   `}
 `
 
