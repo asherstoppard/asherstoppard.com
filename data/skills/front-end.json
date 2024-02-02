@@ -2,8 +2,8 @@
   "name": "Front-End Engineering",
   "skills": [
     "Javascript (ES6/ES7)",
-    "Flow",
     "Typescript",
+    "Flow",
     "Babel",
     "Parcel",
     "Rollup",

@@ -3,30 +3,13 @@ import styled from 'styled-components'
 import Button from '../Button'
 
 const SplashBackground = styled.div`
-  @keyframes SplashBackground {
-      0%{background-position:left center}
-      50%{background-position: right center}
-      100%{background-position: left center}
-  }
-
   position: relative;
-  background-image: linear-gradient(
-    30deg,
-    #231557 0%,
-    #44107A 10%,
-    #FF1361 30%,
-    #ff6431 50%,
-    #FF1361 70%,
-    #44107A 90%,
-    #231557 100%
-  );
-  background-position: left center;
-  background-size: 400% 100%;
+  background: url("/images/gradient-background.jpg") center center no-repeat;
+  background-size: cover;
   height: auto;
   padding-bottom: 20vh;
   width: 100%;
   overflow: hidden;
-  animation: SplashBackground 45s linear infinite;
 
   &:after {
     content: '';

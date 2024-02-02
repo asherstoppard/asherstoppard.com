@@ -10,8 +10,7 @@ const ListItem = styled.li`
     border: 4px solid #cfd8dc;
     position: absolute;
     left: 0.5rem;
-    top: 50%;
-    transform: translate(0, -50%);
+    top: 0.2rem;
     background: white;
     width: 1rem;
     height: 1rem;

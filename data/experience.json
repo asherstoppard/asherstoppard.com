@@ -11,7 +11,18 @@
       "Web3"
     ],
     "location": "London (Remote)",
-    "skills": []
+    "skills": [
+      "Worked across multiple projects using a mixture of Typescript, Node, NextJS, React, GoLang, Styled Components and Storybook.",
+      "Led the UI function of an internal finance management tool.",
+      "Planned, architected, built, deployed and managed governance on a centralised component library for use across multiple products.",
+      "Built CI/CD pipelines using Github Actions and Azure Devops for the testing and deployment of artifacts and services.",
+      "Integrated commit message standards to ensure automated deployment versions for both artifacts and applications using semantic releases.",
+      "Architected and built a gated deployment strategy for Cloudflare Pages",
+      "Assisted building containerised services for Kubernetes Clusters.",
+      "Worked closely with product, design and the wider directorate to give regular updates on timelines, progress, limitations, issues and recommendations on practices to help drive and foster a better working collaboration between teams.",
+      "Integrated automated tests suites for accessibility and code quality alongside tooling for testing and maintaining required standards.",
+      "Architected and implemented a secure authorisation strategy using Azure Entra and OIDC."
+    ]
   },
   {
     "isMainConsultancy": true,
@@ -25,7 +36,7 @@
     ],
     "location": "London (Remote)",
     "skills": [
-      "Lead the Front-End function on an internal data pipeline observation startup built with Typescript, React, GraphQL, Apollo, WebSockets, Styled Components and Storybook.",
+      "Led the Front-End function on an internal data pipeline observation startup built with Typescript, React, GraphQL, Apollo, WebSockets, Styled Components and Storybook.",
       "Designed and architected a GraphQL solution over websockets with Apollo.",
       "Migrated separate repositories into a single, concise and easily maintained monorepo using Turborepo.",
       "Improved build processes and times, increasing performance and productivity using esbuild.",

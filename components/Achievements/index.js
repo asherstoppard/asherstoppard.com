@@ -6,7 +6,12 @@ const Achievements = () => (
     <h2>Achievements</h2>
     <List>
       <ListItem>
-        Worked on an international platform delivering value across 24 countries for a multi-billion pound retail company.
+        Worked on an international platform delivering value across 24 countries for a UK tech unicorn.
+      </ListItem>
+      <ListItem>
+        Integrated CI/CD pipelines with Terraform in AWS on
+        server-less technology for fulfilment chains in a large retail project
+        with resilience to cope with over 15,000 orders a minute.
       </ListItem>
       <ListItem>
         Integrated internal systems with ReactJS and MaterialUI for
@@ -17,12 +22,10 @@ const Achievements = () => (
         React projects.
       </ListItem>
       <ListItem>
-        Integrated CI/CD pipelines with Terraform in AWS on
-        server-less technology for fulfilment chains in a large retail project
-        with resilience to cope with over 15,000 orders a minute.
+        Worked as a technical lead and architect, upskilling six teams to deliver an eight figure software project for a household name.
       </ListItem>
       <ListItem>
-        Worked as a technical lead and architect, upskilling six teams to deliver an eight figure software project for a household name.
+        Reduced build and test times for a medium-scale startup from over 3 minutes to just 7 seconds, saving around 2 hours of engineering time per week.
       </ListItem>
     </List>
   </>

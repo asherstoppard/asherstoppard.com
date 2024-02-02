@@ -115,7 +115,6 @@ const SiteHeader = () => {
           <img src="/images/logo-v2.svg" alt="Asher Stoppard Limited - Logo" />
         </Logo>
         <Nav isNavOpen={isNavOpen}>
-          <Link href="tel:+447398767388"><i className="fa fa-tablet" /> +44 7398 767 388</Link>
           <Link href="mailto:asher@asherstoppard.com"><i className="fa fa-envelope-o" /> asher@asherstoppard.com</Link>
         </Nav>
         <NavTrigger onClick={() => toggleNav(!isNavOpen)}><i className={`fa fa-${isNavOpen ? 'times' : 'bars'}`} /></NavTrigger>
