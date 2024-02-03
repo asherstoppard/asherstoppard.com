@@ -15,7 +15,8 @@ const Header = styled.header`
   `}
   
   ${({ isCondensed, isNavOpen }) => (isCondensed || isNavOpen) && css`
-    background-image: linear-gradient(90deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
+    background: url("/images/gradient-background.jpg") top center no-repeat;
+    background-size: cover;
   `}
 `
 
@@ -112,7 +113,7 @@ const SiteHeader = () => {
     <Header isCondensed={isCondensed} isNavOpen={isNavOpen}>
       <HeaderContainer isCondensed={isCondensed}>
         <Logo href="/">
-          <img src="/images/logo-v2.svg" alt="Asher Stoppard Limited - Logo" />
+          <img src="/images/logo-v3.svg" alt="Asher Stoppard Limited - Logo" />
         </Logo>
         <Nav isNavOpen={isNavOpen}>
           <Link href="mailto:asher@asherstoppard.com"><i className="fa fa-envelope-o" /> asher@asherstoppard.com</Link>
