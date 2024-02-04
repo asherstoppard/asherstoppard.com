@@ -102,7 +102,7 @@ const Splash = ({ message }) => (
       <p>
         I’m a software engineering consultant specialising in isomorphic javascript
         applications, centralisation, open-source, javascript components, architecture, CI/CD
-        and testing; Building scaleable, performant, engaging solutions seen by over <strong>785,261,292</strong> people a year.
+        and testing; Building scalable, performant, engaging solutions seen by over <strong>785,261,292</strong> people a year.
       </p>
       <p>
         <strong>{ message }</strong>
