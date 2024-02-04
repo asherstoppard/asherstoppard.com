@@ -6,7 +6,8 @@ import Container from '../Container'
 const SiteFooterContainer = styled.footer`
   padding: 5rem 0;
 
-  background-image: linear-gradient(30deg, #231557 -1%, #44107A 10%, #FF1361 67%, #ff6431 100%);
+  background: url("/images/gradient-background.jpg") top center no-repeat;
+  background-size: cover;
   text-align: center;
   color: white;
   font-weight: 300;
