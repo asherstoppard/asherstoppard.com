@@ -1,10 +1,8 @@
 <p align="center">
-	<img src="public/images/main-logo-dark.svg" width="50" alt="Asher Stoppard Logo"/>
+	<img src="https://avatars.githubusercontent.com/u/6689773?v=4" width="60" alt="Asher Stoppard Logo"/>
 </p>
 <h1 align="center">Asher Stoppard - Online Resume</h1>
 <p align="center"><a href="https://www.asherstoppard.com/">www.asherstoppard.com</a></p>
-
-![Screenshot](screenshot.jpg)
 
 ## Prerequisites
 
@@ -16,8 +14,8 @@
 Clone the repository
 
 ```sh
-$ git clone git@github.com:asherstoppard/asherstoppard.com.git
-$ cd asherstoppard.com
+$ git clone git@github.com:asherstoppard/asherstoppard.dev.git
+$ cd asherstoppard.dev
 ```
 
 Install the dependencies

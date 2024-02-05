@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Front-End Engineering",
+    "skills": [
+      "Javascript (ES6/ES7)",
+      "Typescript",
+      "Flow",
+      "Babel",
+      "Parcel",
+      "Rollup",
+      "React",
+      "Redux",
+      "NextJS",
+      "Razzle",
+      "AfterJS",
+      "Vue",
+      "Vuex",
+      "Nuxt",
+      "Angular",
+      "styled-components",
+      "emotion",
+      "CSS3",
+      "Sass",
+      "SCSS",
+      "Less",
+      "OOCSS",
+      "BEM",
+      "Responsive Styling",
+      "Semantically Correct HTML5",
+      "Accessibility up to WCAG2.0 AAA Standards"
+    ]
+  },
+  {
+    "name": "Testing",
+    "skills": [
+      "Jest",
+      "React Testing Library",
+      "Enzyme",
+      "Vue Testing Utils",
+      "ExpectJS",
+      "Mocha",
+      "Chai",
+      "Karma",
+      "Jasmine",
+      "Istanbul",
+      "Nightwatch",
+      "WebdriverIO",
+      "Testcafe",
+      "Cypress"
+    ]
+  },
+  {
+    "name": "Back-End Engineering",
+    "skills": [
+      "NodeJS",
+      "Express",
+      "Koa",
+      "Postgres",
+      "DynamoDB",
+      "MongoDB",
+      "Firebase",
+      "GraphQL",
+      "Apollo",
+      "REST",
+      "SNS",
+      "SQS",
+      "API Gateway",
+      "Auth0"
+    ]
+  },
+  {
+    "name": "Web-Ops",
+    "skills": [
+      "Infrastructure as Code",
+      "Cloudformation",
+      "Terraform",
+      "AWS",
+      "GCP",
+      "Azure",
+      "DigitalOcean",
+      "Vercel",
+      "Cloudflare Pages",
+      "Jenkins",
+      "Docker",
+      "Github Actions",
+      "Bitbucket Pipelines"
+    ]
+  },
+  {
+    "name": "Process/Architecture",
+    "skills": [
+      "Monorepo",
+      "Open-Source",
+      "Private NPM",
+      "Vedaccio",
+      "Docker",
+      "Lerna",
+      "Yarn Workspaces",
+      "Git",
+      "Git Flow",
+      "Github",
+      "Bitbucket",
+      "Gitlab",
+      "Jira",
+      "Confluence",
+      "Slack"
+    ]
+  },
+  {
+    "name": "UX/UI",
+    "skills": [
+      "User Research",
+      "Personas",
+      "User Feedback",
+      "Wire-Framing",
+      "Design",
+      "Sketch",
+      "Adobe XD",
+      "Zeplin",
+      "Photoshop",
+      "Illustrator",
+      "Figma"
+    ]
+  },
+  {
+    "name": "SEO",
+    "skills": [
+      "Google Suite 360",
+      "Microformats",
+      "On-Page SEO",
+      "Google Ads",
+      "Google Analytics",
+      "Custom Dimensions and Metrics",
+      "Google Data Studio",
+      "Google Tag Manager",
+      "Hotjar"
+    ]
+  }
+]
