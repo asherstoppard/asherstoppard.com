@@ -12,7 +12,7 @@ export const SButton = styled.button`
   font-weight: 600;
   color: white;
   background: ${({ theme }) => theme.colors.brandSecondary};
-  font-family: ${({ theme }) => theme.base.fontFamily};
+  font-family: var(--font-inter);
   transition: 0.3s ease-in-out;
 
   &:after {

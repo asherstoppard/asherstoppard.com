@@ -5,7 +5,9 @@ import { StyledComponentsRegistry } from '@/lib'
 import { MainLayout } from '@/layouts'
 
 const outfitFont = Outfit({
+  weight: ['200', '300', '400', '600', '700'],
   subsets: ['latin'],
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
