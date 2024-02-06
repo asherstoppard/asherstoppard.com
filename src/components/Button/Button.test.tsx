@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, screen } from '@testing-library/react'
+import { render, screen } from 'test-utils'
 import { Button } from './Button'
 
 const label = '__LABEL__'

@@ -7,11 +7,13 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "target": "es6",
+    "types": ["jest", "node"],
     "plugins": [
       {
         "name": "next",
@@ -19,6 +21,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
+      "test-utils": ["./test-utils"]
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
