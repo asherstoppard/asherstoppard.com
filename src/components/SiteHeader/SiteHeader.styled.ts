@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export const SHeader = styled.header<{ isCondensed?: boolean; isNavOpen?: boolean }>`
+export const SHeader = styled.header<{ $isCondensed?: boolean; $isNavOpen?: boolean }>`
   position: fixed;
   top: 0;
   left: 0;
@@ -9,14 +9,14 @@ export const SHeader = styled.header<{ isCondensed?: boolean; isNavOpen?: boolea
   padding: 2rem 0;
   transition: padding 0.5s ease-in-out;
 
-  ${({ isCondensed }) =>
-    isCondensed &&
+  ${({ $isCondensed }) =>
+    $isCondensed &&
     css`
       padding: 1rem 0;
     `}
 
-  ${({ isCondensed, isNavOpen }) =>
-    (isCondensed || isNavOpen) &&
+  ${({ $isCondensed, $isNavOpen }) =>
+    ($isCondensed || $isNavOpen) &&
     css`
       background: url('/images/gradient-background.jpg') top center no-repeat;
       background-size: cover;
@@ -33,15 +33,15 @@ export const SLogo = styled.a`
   float: left;
 `
 
-export const SNav = styled.nav<{ isNavOpen?: boolean }>`
+export const SNav = styled.nav<{ $isNavOpen?: boolean }>`
   display: none;
   width: 100%;
   clear: both;
   position: relative;
   top: 1rem;
 
-  ${({ isNavOpen }) =>
-    isNavOpen &&
+  ${({ $isNavOpen }) =>
+    $isNavOpen &&
     css`
       display: block;
       border-top: 1px solid rgba(255, 255, 255, 0.3);

@@ -22,7 +22,7 @@ export const SiteHeader = () => {
   const isCondensed = scrollPosition > 0
 
   return (
-    <SHeader isCondensed={isCondensed} isNavOpen={isNavOpen}>
+    <SHeader $isCondensed={isCondensed} $isNavOpen={isNavOpen}>
       <SHeaderContainer>
         <SLogo href="/">
           <img src="/images/main-logo.svg" alt="Asher Stoppard Limited - Logo" />
@@ -30,7 +30,7 @@ export const SiteHeader = () => {
         <SNavTrigger onClick={() => toggleNav(!isNavOpen)}>
           <Icon icon={isNavOpen ? 'close' : 'menu'} />
         </SNavTrigger>
-        <SNav isNavOpen={isNavOpen}>
+        <SNav $isNavOpen={isNavOpen}>
           <SLink href="mailto:asher@asherstoppard.com">
             <Icon icon="mail" /> <strong>asher@asherstoppard.com</strong>
           </SLink>
