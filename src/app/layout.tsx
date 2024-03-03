@@ -11,7 +11,9 @@ const outfitFont = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Asher Stoppard',
+  title: 'Asher Stoppard - Web App Consultant specialising in Javascript',
+  description:
+    'A software engineering consultant specialising in isomorphic javascript applications, centralisation and componentisation, architecture, CI/CD and testing.',
 }
 
 const RootLayout = ({ children }: PropsWithChildren) => (
