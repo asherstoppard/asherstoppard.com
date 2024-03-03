@@ -10,7 +10,7 @@ export const SiteFooter = () => (
       <p>
         <small>
           Asher Stoppard Limited, a company registered in England and Wales. Registered Number:
-          1033320. VAT Number: GB 248168875.
+          10333320. VAT Number: GB 248168875.
           <br />
           Registered office: 18 Wellingtonia Crescent, Edwalton, Nottingham, NG12 4GU.
         </small>

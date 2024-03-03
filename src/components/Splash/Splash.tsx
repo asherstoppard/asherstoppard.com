@@ -16,7 +16,7 @@ export const Splash: FC = () => (
       <p>
         I’m a software engineering consultant specialising in isomorphic javascript applications,
         centralisation, open-source, javascript components, architecture, CI/CD and testing;
-        Building scalable, performant, engaging solutions seen by over <strong>785,261,292</strong>{' '}
+        Building scalable, performant, engaging solutions seen by over <strong>785 Million</strong>{' '}
         people a year.
       </p>
       <SButtonContainer>
