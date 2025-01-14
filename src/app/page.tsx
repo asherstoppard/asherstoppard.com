@@ -1,6 +1,6 @@
 'use client'
 
-import { CallToAction, Container, Experience, Skills, Splash } from '@/components'
+import { Achievements, CallToAction, Container, Experience, Skills, Splash } from '@/components'
 import { getYearsPassedFromDate } from '@/utils'
 
 const HomePage = () => {
@@ -25,6 +25,7 @@ const HomePage = () => {
           approach with UI prototyping and UX experience to create visually engaging and highly
           usable products to industry accessibility standards.
         </p>
+        <Achievements />
         <Skills />
         <Experience />
       </Container>
