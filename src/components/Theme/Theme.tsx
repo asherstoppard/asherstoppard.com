@@ -13,7 +13,7 @@ const Globals = createGlobalStyle`
   }
   
   body {
-    font-weight: 200;
+    font: 200 1rem 'Outfit', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #263238;
   }
   
