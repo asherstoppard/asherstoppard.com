@@ -31,25 +31,6 @@
     ]
   },
   {
-    "name": "Testing",
-    "skills": [
-      "Jest",
-      "React Testing Library",
-      "Enzyme",
-      "Vue Testing Utils",
-      "ExpectJS",
-      "Mocha",
-      "Chai",
-      "Karma",
-      "Jasmine",
-      "Istanbul",
-      "Nightwatch",
-      "WebdriverIO",
-      "Testcafe",
-      "Cypress"
-    ]
-  },
-  {
     "name": "Back-End Engineering",
     "skills": [
       "NodeJS",
@@ -66,6 +47,25 @@
       "SQS",
       "API Gateway",
       "Auth0"
+    ]
+  },
+  {
+    "name": "Quality Assurance",
+    "skills": [
+      "Jest",
+      "React Testing Library",
+      "Enzyme",
+      "Vue Testing Utils",
+      "ExpectJS",
+      "Mocha",
+      "Chai",
+      "Karma",
+      "Jasmine",
+      "Istanbul",
+      "Nightwatch",
+      "WebdriverIO",
+      "Testcafe",
+      "Cypress"
     ]
   },
   {
