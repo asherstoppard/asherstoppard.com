@@ -4,6 +4,7 @@ export const SSkills = styled.div`
   h3 {
     font-size: 1.5rem;
     font-weight: 600;
+    margin: 0;
   }
 `
 
@@ -46,12 +47,17 @@ export const SSkillTitle = styled.button<{ isVisible?: boolean }>`
   font-family: inherit;
   background: none;
   margin: 0;
-  padding: 0 0 0 2rem;
+  padding: 1rem 0 1rem 2rem;
   border: none;
   width: 100%;
   text-align: left;
   cursor: pointer;
   color: black;
+  border-radius: 0 15px 15px 0;
+
+  &:hover {
+    background: linear-gradient(90deg, white, #eceff1);
+  }
 
   &:hover span {
     left: -0.25rem;
