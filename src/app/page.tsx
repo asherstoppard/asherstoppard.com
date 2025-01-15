@@ -1,10 +1,11 @@
 'use client'
 
 import { Achievements, CallToAction, Container, Experience, Skills, Splash } from '@/components'
-import { getYearsPassedFromDate } from '@/utils'
+import { getYearsPassedFromDate, numberToWords } from '@/utils'
 
 const HomePage = () => {
   const yearsExperience = getYearsPassedFromDate('01/01/2006')
+  const yearsExperienceInWords = numberToWords(yearsExperience)
 
   return (
     <main>
@@ -19,7 +20,7 @@ const HomePage = () => {
           </strong>
         </p>
         <p>
-          I have over {yearsExperience} years experience in both website design and software
+          I have over {yearsExperienceInWords} years experience in both website design and software
           development. I am a data driven designer and developer, shaping user experiences based on
           research and analysis of quantitative and qualitative data. I combine this analytical
           approach with UI prototyping and UX experience to create visually engaging and highly
