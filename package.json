@@ -10,21 +10,21 @@
     "test:types": "tsc"
   },
   "dependencies": {
-    "dayjs": "1.11.10",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "dayjs": "1.11.13",
     "material-icons": "1.13.12",
-    "next": "14.1.0",
+    "next": "^14",
     "polished": "4.3.1",
-    "styled-components": "6.1.8"
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "6.1.14"
   },
   "devDependencies": {
-    "typescript": "5.3.3",
     "@types/node": "20.11.16",
-    "@types/react": "18.2.52",
-    "@types/react-dom": "18.2.18",
-    "eslint": "8.56.0",
-    "eslint-config-next": "14.1.0",
-    "prettier": "3.2.4"
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "8.57.1",
+    "eslint-config-next": "^14",
+    "prettier": "3.4.2",
+    "typescript": "5.7.3"
   }
 }
