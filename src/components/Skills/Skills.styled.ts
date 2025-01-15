@@ -51,6 +51,7 @@ export const SSkillTitle = styled.button<{ isVisible?: boolean }>`
   width: 100%;
   text-align: left;
   cursor: pointer;
+  color: black;
 
   &:hover span {
     left: -0.25rem;
