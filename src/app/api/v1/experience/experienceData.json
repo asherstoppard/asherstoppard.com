@@ -207,7 +207,13 @@
     "companyName": "Fifteen Design",
     "companyLogo": "/images/company-logos/fifteen.jpg",
     "position": "Lead Web Developer",
-    "skills": "Worked closely alongside the design and SEO department to develop and deploy future-proof, UX-Oriented Content Managed websites and eCommerce solutions utilising semantic HTML5, CSS3, SCSS, PHP, Javascript, jQuery and XML to create compliant, accessible and responsive online products",
+    "skills": [
+      "Worked on over 100 responsive  client websites including brochure sites and eCommerce stores utilising semantic HTML5, CSS3, PHP and jQuery.",
+      "Regularly provided feedback to stakeholders on progress, efficiency and project profitability.",
+      "Managed over 85 client accounts.",
+      "Integrated git processes for better version control across the business.",
+      "Implemented automated testing for performance, accessibility and code quality."
+    ],
     "location": "Nottingham and London"
   }
 ]
