@@ -1,7 +1,18 @@
 [
   {
     "isMainConsultancy": true,
+    "from": "02/2025",
+    "companyName": "Monzo Bank",
+    "position": "Contract Senior Web Engineer",
+    "companyLogo": "/images/company-logos/monzo.svg",
+    "tags": ["FTSE250", "FinTech", "Banking"],
+    "location": "London (Remote)",
+    "skills": []
+  },
+  {
+    "isMainConsultancy": true,
     "from": "09/2023",
+    "to": "01/2025",
     "companyName": "Kanexa",
     "position": "Javascript Engineering Consultant",
     "companyLogo": "/images/company-logos/kanexa.svg",
