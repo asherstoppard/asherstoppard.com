@@ -1,13 +1,28 @@
 [
   {
     "isMainConsultancy": true,
+    "from": "08/2025",
+    "companyName": "Zapp",
+    "position": "Software Engineering Consultant",
+    "companyLogo": "/images/company-logos/zapp.svg",
+    "tags": ["Startup", "eCommerce"],
+    "location": "London (Remote)"
+  },
+  {
+    "isMainConsultancy": true,
     "from": "02/2025",
+    "to": "08/2025",
     "companyName": "Monzo Bank",
     "position": "Contract Senior Web Engineer",
     "companyLogo": "/images/company-logos/monzo.svg",
     "tags": ["FinTech", "Banking"],
     "location": "London (Remote)",
-    "skills": []
+    "skills": [
+      "Worked across multiple Monzo verticals using a mixture of Typescript, Flow, NextJS, React, Go, CSS modules, Storybook and Contentful CMS directly improving conversions for around 170,000 new acquisitions a Month.",
+      "Led the MarTech function across all squads, driving and fostering new ways of working between marketing and engineering and paving the way for new AI tooling centred around analytics, attribution, user consent, reducing marketing churn and improving time-to-market with deliverables that previously took Months to deliver.",
+      "Worked directly with third parties including TikTok, Google, Facebook, Rokt and Adjust to provide technical insights into new products helping reduce churn between marketing and engineering and increasing responsiveness to market.",
+      "Assisted with internationalisation, helping pave the way for flexibility and speed when deploying to new markets and ensuring SEO standards were maintained as not to damage the 430,000 organic users visiting per Month."
+    ]
   },
   {
     "isMainConsultancy": true,
