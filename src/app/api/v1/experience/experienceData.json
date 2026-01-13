@@ -4,9 +4,19 @@
     "from": "08/2025",
     "companyName": "Zapp",
     "position": "Software Engineering Consultant",
-    "companyLogo": "/images/company-logos/zapp.svg",
+    "companyLogo": "/images/company-logos/zapp-v2.svg",
     "tags": ["Startup", "eCommerce"],
-    "location": "London (Remote)"
+    "location": "London (Remote)",
+    "skills": [
+      "Led the integration of a company-wide design system using Storybook, Vite, Vitest, Chromatic, Tailwind, ShadCDN UI and React",
+      "Integrated internal analytics to track adoption of the design system and provide key metrics on component usage",
+      "Implemented a logging framework for tracking 3rd party usage of the design system to proactively resolve issues",
+      "Provided UI feedback on all internal applications",
+      "Migrated the support platform from NextJS to Vite, simplifying processes and allowing static builds on cloud storage, saving the company money.",
+      "Implemented GH Actions and CircleCI pipelines across multiple products to increase visibility and streamline processes",
+      "Added and configured semantic release to provide automated semver deployments of artifacts saving around 25 minutes engineering time per build",
+      "Extended the design system for better integration with AI tools."
+    ]
   },
   {
     "isMainConsultancy": true,
