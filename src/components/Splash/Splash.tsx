@@ -21,7 +21,7 @@ export const Splash: FC = () => (
       </p>
       <SButtonContainer>
         <Button
-          href="/documents/Asher%20Stoppard%20-%20CV%20-%202025.pdf"
+          href="/documents/Asher%20Stoppard%20-%20CV%20-%202026.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
